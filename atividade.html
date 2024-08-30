@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="atividade.css">
+</head>
+<body>
+    <form action="">
+        <fieldset class="borda">
+            <legend>Cadastro do Cleinte:</legend>
+            <label for="Nome">Nome:</label><br>
+            <input type="text" class="caixa"><br>
+            <label for="Sobrenome">Sobrenome:</label><br>
+            <input type="text" class="caixa"><br>
+            <label for="Email">E-mail:</label><br>
+            <input type="email" name="" class="caixa"><br>
+            <label for="Senha">Senha:</label><br>
+            <input type="password" name="" class="caixa"><br>
+            <label for="DataNascimento">Data de Nascimento:</label><br>
+            <input type="date" name="" class="caixa"><br>
+            <label for="Comidafavorita">Comida Favorita:</label>
+            <ul>
+                <li><input type="checkbox" name="comida[]" class="caixa" value="Xis">Xis</li>
+                <li><input type="checkbox" name="comida[]" class="caixa" value="Sushi">Sushi</li>
+                <li><input type="checkbox" name="comida[]" class="caixa" value="Pizza">Pizza</li>
+                <li><input type="checkbox" name="comida[]" class="caixa" value="Hambúrguer">Hambúrguer</li>
+                <li><input type="checkbox" name="comida[]" class="caixa" value="Cachorro Quente">Cachorro Quente</li>
+            </ul>
+            <label for="Descrevasuascaracteristicas">Descreva suas Caracteristicas:</label>
+            <textarea name="Descrevasuascaracteristicas" class="caixa" cols="30" rows="3"></textarea><br>
+            <label for="termosdecadastro">Aceita os termos de cadastro:</label>
+            <ul>
+                <li><input type="radio" name="opcao" class="caixa">Sim</li>
+                <li><input type="radio" name="opcao" class="caixa">Não</li>
+            </ul>
+            <input type="submit" value="Cadastrar" class="botao">
+        </fieldset>
+    </form>
+</body>
+</html>
